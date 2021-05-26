@@ -2,7 +2,6 @@
   "name": "goit-react-hw-06-phonebook",
   "version": "0.1.0",
   "private": true,
-
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@reduxjs/toolkit": "^1.5.1",
@@ -29,7 +28,7 @@
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "netlify deploy -p"
+    "deploy": "npx netlify-cli deploy -p"
   },
   "eslintConfig": {
     "extends": [
